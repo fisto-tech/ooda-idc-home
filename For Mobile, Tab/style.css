@@ -1,0 +1,3073 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.page {
+    /* min-height: 95vh;
+    max-height: 95vh; */
+    margin: 1em;
+}
+
+
+/********************************************************************************* page 1 *********************************************************/
+
+.page {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.page img {
+    /* height: 100%;
+    width: 100%;
+    object-fit: cover;
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none; */
+}
+
+.page .background_image {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 85vh;
+    width: 100%;
+    object-fit: cover;
+    user-select: none;
+}
+
+
+.lightbox-link, .contact-links, .about-us-links {
+  background-color: rgba(165, 42, 42, 0);
+  position: absolute;
+  cursor: pointer;
+  z-index: 99;
+  display: block;
+  width: 9%;
+height: 7%;
+}
+
+
+/* about us links */
+
+.about-us-links {
+    font-size: calc(88%);
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    background: white;
+    width: fit-content !important;
+    transition: all .3s ease-in-out;
+}
+
+
+@media screen and (min-width: 600px) {
+    .about-us-links {
+        font-size: calc(100% + 50%);
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .about-us-links {
+        font-size: calc(100% + 78%);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .about-us-links {
+        font-size: calc(256%); 
+    }
+}
+/* 
+.about-us-links:hover {
+    color: green;
+} */
+/* 
+.about-link {
+    top: 37.85%;
+    left: 9.5%;
+    height: 4%;
+    width: 20%;
+}
+
+.growth-link {
+    top: 43.75%;
+    left: 9.5%;
+    height: 4%;
+    width: 30%;
+}
+
+.services-link {
+    top: 50.25%;
+    left: 9.5%;
+    height: 4%;
+    width: 18%;
+}
+
+.industry-link {
+    top: 56%;
+    left: 9.5%;
+    height: 4%;
+    width: 38%;
+}
+
+.applications-link {
+    top: 62%;
+    left: 9.5%;
+    height: 4%;
+    width: 26%;
+}
+
+.products-link {
+    top: 68.25%;
+    left: 9.5%;
+    height: 4%;
+    width: 21%;
+}
+
+.contact-us-link {
+    top: 73.85%;
+    left: 9.5%;
+    height: 4%;
+    width: 24%;
+} */
+
+
+.about-link {
+    top: 38.25%;
+    left: 9.75%;
+}
+
+.growth-link {
+    top: 43.75%;
+    left: 9.5%;
+    height: 4%;
+    width: 30%;
+}
+
+.industry-link
+{
+    top: 50.25%;
+    left: 9.5%;
+    height: 4%;
+    width: 18%;
+}
+
+.applications-link {
+    top: 56%;
+    left: 9.5%;
+    height: 4%;
+    width: 38%;
+}
+
+.services-link {
+    top: 62%;
+    left: 9.5%;
+    height: 4%;
+    width: 26%;
+}
+
+.products-link {
+    top: 68.25%;
+    left: 9.5%;
+    height: 4%;
+    width: 21%;
+}
+
+.contact-us-link {
+    top: 73.85%;
+    left: 9.5%;
+    height: 4%;
+    width: 24%;
+}
+
+
+/* about us links ends */
+
+.lightbox-link.uc-button {
+    top: 23.5%;
+    left: 77.5%;
+}
+
+.lightbox-link.tg-button {
+    top: 31%;
+    left: 74%;
+}
+
+.lightbox-link.uv-uc-button {
+    top: 28.5%;
+    left: 78.5%;
+}
+
+.lightbox-link.single-part-button {
+    top: 25.75%;
+    left: 75.25%;
+}
+
+.lightbox-link.pree-kote-button {
+    top: 30%;
+    left: 78%;
+}
+
+.lightbox-link.v52-aluminium-button {
+   top: 25.75%;
+    left: 75.25%;
+}
+
+.lightbox-link.metal-expoxy-11116 {
+    top: 29%;
+    left: 78.5%;
+}
+
+.lightbox-link.nylon-liquid-power-button {
+    top: 25.75%;
+    left: 75.25%;
+}
+
+.lightbox-link.mso2-dry-button {
+    top: 30%;
+    left: 78%;
+}
+
+.lightbox-link.high-temp-pte-button {
+    top: 29.5%;
+    left: 62.5%;
+}
+
+.lightbox-link.high-strength-6383-button {
+     top: 33.5%;
+    left: 76.5%;
+}
+
+.lightbox-link.thread-locker-button {
+    top: 28.5%;
+    left: 79%;
+}
+
+.contact-links.website-link {
+    top: 42.3%;
+    left: 12%;
+    width: 20%;
+    height: 2%;
+}
+
+.contact-links.phone-link1 {
+    top: 46%;
+    left: 11.15%;
+    width: 16%;
+    height: 2%;
+}
+
+.contact-links.phone-link2 {
+    top: 48.1%;
+    left: 11.15%;
+    width: 16%;
+    height: 2%;
+}
+
+.contact-links.map-link {
+    top: 27%;
+    left: 50%;
+    width: 39%;
+    height: 8%;
+}
+
+
+.contact-links.email-link1 {
+    top: 46.5%;
+    left: 70%;
+    width: 19.5%;
+    height: 2.5%;
+}
+
+.contact-links.email-link2 {
+    top: 49.25%;
+    left: 67%;
+    width: 30.5%;
+    height: 2%;
+}
+
+/* ************************************************************************************** page 01 ******************************************************************* */
+ 
+.home-container {
+    width: 100%;
+    height: 100%;
+}
+ 
+.home-container .home-logo {
+    height: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    right: 3%;
+    top: 0;
+}
+ 
+.home-logo img {
+    width: 20%;
+    height: auto;
+    position: unset;
+    animation: beatFade 1s ease-in-out 8s;
+}
+ 
+@keyframes beatFade {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+ 
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+ 
+.home-container .home-images {
+    width: 100%;
+    height: 82%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 4.3%;
+}
+ 
+.container {
+    display: flex;
+    height: 46%;
+    width: 100%;
+    clip-path: polygon(0% 46%, 100% 0%, 100% 53.1%, 0% 100%);
+}
+ 
+.image-box {
+    width: 33.33%;
+    height: 100%;
+    opacity: 0;
+    scale: 0.6;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+}
+ 
+.image-box img {
+    position: unset;
+    cursor: pointer;
+    transition: 1s;
+}
+ 
+.image-box img:hover {
+   scale: 1.2;
+}
+ 
+.image-box.fadeIn {
+    opacity: 1;
+    scale: 1;
+}
+ 
+ 
+.image-box:nth-child(1) {
+    display: flex;
+    align-items: end;
+}
+ 
+.container:nth-child(1) .image-box:last-child {
+    /* clip-path: polygon(0% 0%, 100% 6%, 100% 54%, 0% 100%); */
+}
+ 
+.image-box:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+ 
+.image-box:nth-child(3) {
+    display: flex;
+    align-items: start;
+}
+ 
+.image-box img {
+    width: 100%;
+    height: 70%;
+}
+ 
+.container:nth-child(2),
+.container:nth-child(3) {
+    margin-top: -21.4%;
+}
+
+/* ************************************************************************************** page 04 ******************************************************************* */
+
+
+
+.grid-4-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    aspect-ratio: 10 / 10;
+    z-index: 9;
+    position: absolute;
+    column-gap: 15px;
+    row-gap: 15px;
+    height: 62%;
+    left: 7.5%;
+    top: 33.25%;
+    width: 85%;
+}
+
+.grid-img-cont {
+    overflow: hidden;
+}
+
+.grid-4-cont img {
+    position: unset;
+    object-fit: contain;
+    /* height: unset;
+    width: unset; */
+}
+
+.grid-top_img {
+    background-color: red;
+}
+
+
+/* ************************************************************************************** page 03 ******************************************************************* */
+
+.page3-text img {
+    position: absolute;
+    bottom: 7%;
+    left: 4%;
+    z-index: 9;
+    height: 12%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 04 ******************************************************************* */
+
+.page4-text img {
+    position: absolute;
+    top: 5.25%;
+    left: 3%;
+    z-index: 9;
+    height: 21.5%;
+    width: auto;
+}
+
+/* ************************************************************************************** page 05 ******************************************************************* */
+
+.page5-text-top img {
+    position: absolute;
+    top: 7.5%;
+    left: 17%;
+    height: 7.5%;
+    width: auto;
+    z-index: 9;
+}
+
+.page5-text-bottom img {
+    position: absolute;
+    bottom: 7%;
+    left: 8%;
+    height: 11.75%;
+    width: auto;
+    z-index: 9;
+    top: unset;
+}
+/* ************************************************************************************** page 06 ******************************************************************* */
+
+.page6-text img {
+    position: absolute;
+    bottom: 6%;
+    left: 5%;
+    z-index: 9;
+    height: 15%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 07 ******************************************************************* */
+
+.page7-text img {
+    position: absolute;
+    bottom: 13%;
+    left: 5%;
+    z-index: 9;
+    height: 36%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 08 ******************************************************************* */
+
+.page8-text img {
+    position: absolute;
+    bottom: 23%;
+    left: 4.5%;
+    z-index: 9;
+    height: 38%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 09 ******************************************************************* */
+
+.page9-text img {
+    position: absolute;
+    bottom: unset;
+    left: 3%;
+    z-index: 9;
+    height: 21.25%;
+    width: auto;
+    top: 5%;
+}
+
+/* ************************************************************************************** page 10 ******************************************************************* */
+
+
+.page10-text-top img {
+    position: absolute;
+    top: 7.5%;
+    left: 17%;
+    height: 7.5%;
+    width: auto;
+    z-index: 9;
+}
+
+.page10-text-bottom img {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    height: 9%;
+    width: auto;
+    z-index: 9;
+    top: unset;
+}
+
+/* ************************************************************************************** page 11 ******************************************************************* */
+
+
+.page11-text img {
+    position: absolute;
+    bottom: 5%;
+    left: 3.5%;
+    z-index: 9;
+    height: 15.75%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 12 ******************************************************************* */
+
+
+.page12-text img {
+    position: absolute;
+    bottom: 16%;
+    left: 3.5%;
+    z-index: 9;
+    height: 32.75%;
+    width: auto;
+    top: unset;
+}
+
+
+.page_marquee_content_wrapper {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  right: 3%;
+  z-index: 9;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.page_marquee_content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  animation: verticalScroll 10s linear infinite;
+}
+
+.page_marquee_content:hover {
+    animation-play-state: paused; /* Pause scrolling on hover */
+}
+
+.page_marquee_content img {
+    position: unset;
+    width: 100%;
+    height: auto;
+}
+
+/* Keyframes for vertical scrolling */
+@keyframes verticalScroll {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%); /* scroll halfway if you duplicate content */
+  }
+}
+
+
+
+/* ************************************************************************************** page 13 ******************************************************************* */
+
+
+.page13-text img {
+    position: absolute;
+    bottom: 19%;
+    left: 5%;
+    z-index: 9;
+    height: 42.75%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 14 ******************************************************************* */
+
+
+.page14-text img {
+    position: absolute;
+    bottom: unset;
+    left: 5%;
+    z-index: 9;
+    height: 20.5%;
+    width: auto;
+    top: 5%;
+}
+
+/* ************************************************************************************** page 15 ******************************************************************* */
+
+.page15-text-top img {
+    position: absolute;
+    top: 7.5%;
+    left: 17%;
+    height: 7.5%;
+    width: auto;
+    z-index: 9;
+}
+
+.page15-text-bottom img {
+    position: absolute;
+    bottom: 7%;
+    left: 8%;
+    height: 12.25%;
+    width: auto;
+    z-index: 9;
+    top: unset;
+}
+
+/* ************************************************************************************** page 16 ******************************************************************* */
+
+
+.page16-text img {
+    position: absolute;
+    bottom: 6%;
+    left: 3.5%;
+    z-index: 9;
+    height: 17%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 17 ******************************************************************* */
+
+
+.page17-text img {
+    position: absolute;
+    bottom: 15%;
+    left: 4.5%;
+    z-index: 9;
+    height: 35%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 18 ******************************************************************* */
+
+
+.page18-text img {
+    position: absolute;
+    bottom: 17%;
+    left: 4%;
+    z-index: 9;
+    height: 43.75%;
+    width: auto;
+    top: unset;
+}
+
+
+
+/* ************************************************************************************** page 19 ******************************************************************* */
+
+
+.page19-text img {
+    position: absolute;
+    bottom: unset;
+    left: 4%;
+    z-index: 9;
+    height: 25%;
+    width: auto;
+    top: 4.5%;
+}
+
+
+
+/* ************************************************************************************** page 20 *******************************************************************/
+
+.page .page20-circle {
+   position: absolute;
+    bottom: 19%;
+    z-index: 9;
+    height: 95%;
+    width: auto;
+    top: 1%;
+    left: -11.5%;
+    animation: round 40s linear infinite;
+}
+
+@keyframes round {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* ************************************************************************************** page 21 *******************************************************************/
+
+.page21 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 15px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .page21 {
+    height: 100%;
+    min-height: unset;
+    aspect-ratio: 10 /14;
+    }
+}
+
+.page21 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    user-select: none;
+}
+
+
+.page-content {
+    position: relative;
+    z-index: 9;
+    width: 100%;
+}
+
+.heading-title {
+    font-weight: 700;
+    color: #202020;
+    font-size: 40px;
+    transform: translate(20px, 10px);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 650px) {
+    .heading-title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heading-title {
+        font-size: 20px;
+        margin-bottom: 0;
+        transform: translate(20px, 5px);
+        font-weight: 800;
+    }
+}
+
+.page-21-card-section {
+    width: 90%;
+    height: 100%;
+    aspect-ratio: 10/10;
+    display: flex;
+    flex-direction: column;
+    transform: translate(20px, 20px);
+    gap: 5px;
+}
+
+.page-21-card-section .p21-top-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    flex: 1;
+}
+
+.page-21-card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #FFFFFF;
+    transition: all .3s ease-in-out;
+}
+
+.page-21-card:hover {
+    border-color: black;
+}
+
+.page-21-card img {
+    transition: all .3s ease-in-out;
+}
+
+.page-21-card:hover img {
+    scale: 1.10;
+}
+
+
+.page-21-card p {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background: white;
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    z-index: 2;
+    min-width: 0;
+    width: max-content;
+    border-radius: 7px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .6s ease-in-out;
+}
+
+.page-21-card:hover p {
+    color: white;
+    background: black;
+}   
+
+
+.p21-top-cards .page-21-card {
+    flex: 1;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.p21-top-cards .page-21-card:last-child {
+    flex: 2;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+
+.p21-bottom-cards {
+    flex: 3;
+    display: flex;
+    gap: 5px;
+}
+
+.p21-bottom-left {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.p21-bottom-left .page-21-card {
+    flex: 1;
+    background-color: rgb(255, 225, 127);
+}
+
+.p21-bottom-left .page-21-card:last-child {
+    flex: 2;
+    background-color: rgb(255, 225, 127);
+}
+
+.p21-bottom-right {
+    flex: 2;
+    height: 100%;
+}
+
+.p21-bottom-right {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.p21-bottom-right .page-21-card {
+    background-color: rosybrown;
+}
+
+
+/***************************************************************************************************** Page 24 *******************************************************************************************/
+
+.page .product-image {
+    position: absolute;
+    height: 35%;
+    width: 33%;
+    z-index: 9;
+    top: 24%;
+    left: 61%;
+    transition: transform 0.3s ease-in-out;
+    pointer-events: unset;
+    animation: popup 2s linear infinite;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+.lightbox-hover-link:hover .product-image {
+    transform: scale(1.05);
+}
+
+
+.page .uv_uc_image {
+    top: 29.5%;
+}
+
+.page .k_single_part_epoxy_image {
+    top: 27.5%;
+    left: 60%;
+    height: 33%;
+    width: 30%;
+}
+
+
+.page .tg_109_image {
+    height: 28%;
+    width: 25%;
+    top: 33.5%;
+    left: 64%;
+}
+
+.page .pre_applied_thread_image {
+    height: 31%;
+    width: 25%;
+    top: 32.5%;
+    left: 63%;
+}
+
+.page .v52_aluminium_putty_image {
+    height: 37%;
+    width: 25%;
+    top: 28.5%;
+    left: 64%;
+}
+
+.page .metal_epoxy_image {
+    height: 30%;
+    width: 28%;
+    top: 31%;
+    left: 61%;
+}
+
+.page .nylon_liquid_powder_image {
+    height: 33%;
+    width: 25%;
+    top: 28.5%;
+    left: 63%;
+}
+
+.page .mos2_dry_coating_image {
+    height: 31%;
+    width: 25%;
+    top: 31.5%;
+    left: 63%;
+}
+
+.page .high_temperature_ptfe_grease_image {
+    height: 44%;
+    width: 25%;
+    top: 21.5%;
+    left: 65%;
+}
+
+.page .high_strength_image {
+    height: 33%;
+    width: 25%;
+    top: 27.5%;
+    left: 60%;
+}
+
+
+.corner_image {
+    position: absolute;
+    width: 20% !important;
+    height: 20% !important;
+    z-index: 9 !important;
+    left: 70.75% !important;
+    top: 6.75% !important;
+    border-left: 5px solid white !important;
+    border-right: 5px solid white !important;
+}
+.back-top-wrapper {
+  position: fixed;
+  bottom: 8%;
+  right: 5%;
+  width: 55px;
+  height: 55px;
+  padding: 2.5px; /* This becomes the border thickness */
+  background: linear-gradient(to right, #60ecf4, #43be9f);
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.back-top-button {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.back-top-button i {
+  font-size: 24px;
+  background: linear-gradient(to right, #60ecf4, #43be9f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-top-button:hover i {
+  opacity: 0.8;
+}
+
+
+
+/* services */
+
+.service-grid-container1 {
+    position: absolute;
+    width: 93%;
+    height: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    /* gap: 1vw; */
+}
+
+.service-grid-container1 .grid-flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    width: 100%;
+    flex: 1;
+}
+
+.grid-flex-row div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-grid-container1 .grid-flex-row div img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+}
+
+.service-grid-container1 .row-1 img{
+    flex: 1;
+}
+
+.service-grid-container1 .row-2,
+.service-grid-container1 .row-3 {
+    margin-top: -6%;
+}
+
+.service-grid-container1 .row-2 img:nth-child(1) {
+    flex: 2;
+}
+
+.service-grid-container1 .row-2 img:nth-child(2) {
+    flex: 1;
+}
+
+.service-grid-container1 .row-3 img:nth-child(1) {
+    flex: 1;
+}
+
+.service-grid-container1 .row-3 img:nth-child(2) {
+    flex: 2;
+}
+
+.service-grid-2 {
+    z-index: 1;
+}
+
+.service-grid-2 .row-1, 
+.service-grid-2 .row-1 {
+    margin-top: -6%;
+}
+.service-grid-2 .row-3 {
+    margin-top: unset;
+}
+
+
+
+
+/******************************************************************************** page 1 ends ****************************************************/
+
+.page .page1-circle {
+    position: absolute;
+    bottom: 19%;
+    z-index: 9;
+    height: 63%;
+    width: auto;
+    top: 15%;
+    left: 13%;
+    animation: round 40s linear infinite;
+}
+
+@keyframes round {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.page1-logo {
+    position: absolute;
+    top: 12%;
+    z-index: 99;
+    height: 12%;
+    width: auto;
+    top: 40%;
+    left: 53%;
+    transform: translateX(-50%);
+}
+
+.page1Text {
+    position: absolute;
+    z-index: 99;
+    height: 20%;
+    width: auto;
+    top: 78.5%;
+    left: 12%;
+}
+
+
+
+/******************************************************************************** page 1 ends ****************************************************/
+
+
+
+
+/******************************************************************************** page 2 starts ****************************************************/
+
+
+.page2Text {
+    position: absolute;
+    z-index: 99;
+    height: 77%;
+    width: auto;
+    top: 12.55%;
+    left: -3%;
+}
+
+
+
+/******************************************************************************** page 2 ends ****************************************************/
+
+
+
+
+
+/******************************************************************************** page 3 starts ****************************************************/
+
+.page3-logo {
+    position: absolute;
+    z-index: 99;
+    height: 10%;
+    width: auto;
+    top: 8.55%;
+    left: 78%;
+}
+
+.about_page_content {
+    position: absolute;
+    z-index: 99;
+    height: 68%;
+    width: auto;
+    top: 24.55%;
+    left: 0%;
+}
+
+/******************************************************************************** page 3 ends ****************************************************/
+
+
+/******************************************************************************** page 4 starts ****************************************************/
+
+.table_of_contents {
+    height: 10%;
+    width: auto;
+    position: absolute;
+    top: 26%;
+    left: 19.73%;
+    z-index: 99;
+}
+
+.page5_nav_links {
+    height: 33%;
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    z-index: 99;
+}
+
+.page5_bottom {
+    height: 20%;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    right: 1.75%;
+    z-index: 99;
+}
+
+.nav-links {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+    height: 5%;
+    left: 9.75%;
+    z-index: 99;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+/* .nav-links:hover {
+    border: 3px solid #01c386;
+} */
+
+.about-link {
+    top: 39.5%;
+    width: 19%;
+}
+
+.applications-link {
+    width: 24%;
+    top: 46.5%;
+}
+
+.services-link {
+    width: 17%;
+    top: 53.5%;
+}
+
+.products-link {
+    width: 20%;
+    top: 60.5%;
+}
+
+.contactus-link {
+    width: 23%;
+    top: 67%;
+}
+
+
+/******************************************************************************** page 4 ends ****************************************************/
+
+/******************************************************************************** page 5 starts ****************************************************/
+
+.services_grid_main {
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    position: relative;
+    position: absolute;
+    aspect-ratio: 2/2;
+    height: auto;
+    width: 94%;
+    top: 8%;
+    left: 3.5%;
+}
+
+.services_grid_main img {
+    flex: 1;
+}
+
+.services_grid_main img:nth-child(even) {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/******************************************************************************** page 5 ends ****************************************************/
+
+/******************************************************************************** page 14 starts ****************************************************/
+
+.product_info {
+    position: absolute;
+    top: 7%;
+    width: auto;
+    height: 68%;
+    left: 4%;
+}
+
+.bottom_img_row {
+    position: absolute;
+    height: 19.25%;
+    width: auto;
+    bottom: 3.5%;
+    left: 4.5%;
+}
+
+.bg_and_icons {
+    position: absolute;
+    height: 48%;
+    width: auto;
+    top: 26.25%;
+    left: 56%;
+}
+
+.product_image {
+    position: absolute;
+    height: 32%;
+    width: auto;
+    top: 31%;
+    left: 63.5%;
+    animation: popup 2s linear infinite;
+}
+
+/******************************************************************************** page 14 ends ****************************************************/
+
+/******************************************************************************** page 15 starts ****************************************************/
+
+.page_15_img_holder .product_image {
+    height: 32%;
+    top: 33%;
+    left: 63%;
+}
+
+.page_15_img_holder .bg_and_icons {
+    height: 53%;
+    top: 21%;
+    left: 48%;
+}
+
+/******************************************************************************** page 15 ends ****************************************************/
+
+/******************************************************************************** page 16 starts ****************************************************/
+
+.page_16_img_holder .product_image {
+    height: 31%;
+    top: 31%;
+    left: 61%;
+}
+
+.page_16_img_holder .bg_and_icons {
+    height: 48%;
+    top: 26.25%;
+    left: 54%;
+}
+
+/******************************************************************************** page 16 ends ****************************************************/
+
+
+/******************************************************************************** page 17 starts ****************************************************/
+
+.page_17_img_holder .product_image {
+    height: 29%;
+    top: 32%;
+    left: 63.25%;
+}
+
+.page_17_img_holder .bg_and_icons {
+    height: 61%;
+    top: 15.25%;
+    left: 38%;
+}
+
+/******************************************************************************** page 17 ends ****************************************************/
+
+/******************************************************************************** page 18 starts ****************************************************/
+
+.page_18_img_holder .product_image {
+    height: 32%;
+    top: 31%;
+    left: 65%;
+}
+
+.page_18_img_holder .bg_and_icons {
+    height: 49%;
+    top: 26.25%;
+    left: 53.25%;
+}
+
+/******************************************************************************** page 18 ends ****************************************************/
+
+/******************************************************************************** page 19 starts ****************************************************/
+
+.page_19_img_holder .product_image {
+    height: 30%;
+    top: 33.2%;
+    left: 60%;
+}
+
+.page_19_img_holder .bg_and_icons {
+    height: 48%;
+    top: 26.25%;
+    left: 54%;
+}
+
+/******************************************************************************** page 19 ends ****************************************************/
+
+/******************************************************************************** page 20 starts ****************************************************/
+
+.page_20_img_holder .product_image {
+    height: 29%;
+    top: 33.2%;
+    left: 60%;
+}
+
+.page_20_img_holder .bg_and_icons {
+    height: 48%;
+    top: 27%;
+    left: 54%;
+}
+
+/******************************************************************************** page 20 ends ****************************************************/
+
+/******************************************************************************** page 21 starts ****************************************************/
+
+.page_21_img_holder .product_image {
+    height: 31.5%;
+    top: 29%;
+    left: 60%;
+}
+
+.page_21_img_holder .bg_and_icons {
+    height: 51%;
+    top: 24%;
+    left: 53%;
+}
+
+/******************************************************************************** page 21 ends ****************************************************/
+
+/******************************************************************************** page 22 starts ****************************************************/
+
+.page_22_img_holder .product_image {
+    height: 29.5%;
+    top: 36%;
+    left: 59%;
+}
+
+.page_22_img_holder .bg_and_icons {
+    height: 46%;
+    top: 29%;
+    left: 53%;
+}
+
+/******************************************************************************** page 22 ends ****************************************************/
+
+/******************************************************************************** page 23 starts ****************************************************/
+
+.page_23_img_holder .product_image {
+    height: 43.5%;
+    top: 26%;
+    left: 53%;
+}
+
+.page_23_img_holder .bg_and_icons {
+    height: 46%;
+    top: 29%;
+    left: 56%;
+}
+
+/******************************************************************************** page 23 ends ****************************************************/
+
+/******************************************************************************** page 24 starts ****************************************************/
+
+.page_24_img_holder .product_image {
+    height: 36.5%;
+    top: 27%;
+    left: 60.5%;
+}
+
+.page_24_img_holder .bg_and_icons {
+    height: 59%;
+    top: 16%;
+    left: 41%;
+}
+
+/******************************************************************************** page 24 ends ****************************************************/
+
+/******************************************************************************** thank you page starts ****************************************************/
+.thankyou_img {
+    position: absolute;
+    height: 40%;
+    width: auto;
+    bottom: 0%;
+    right: 0;
+}
+
+/******************************************************************************** thank you page ends ****************************************************/
+
+/******************************************************************************** contact page starts ****************************************************/
+.contact_img {
+    position: absolute;
+    height: 29%;
+    width: auto;
+    top: 22%;
+    left: 8%;
+}
+
+/******************************************************************************** contact page ends ****************************************************/
+
+
+
+/******************************************************************************** page 1 ends ****************************************************/
+
+.page .page1-circle {
+    position: absolute;
+    bottom: 19%;
+    z-index: 10;
+    height: 67%;
+    width: auto;
+    top: 7%;
+    left: 9%;
+    /* animation: round 40s linear infinite; */
+}
+
+.page .page1-circle-bg {
+    position: absolute;
+    bottom: 19%;
+    z-index: 9;
+    height: 69%;
+    width: auto;
+    top: 6%;
+    left: 8%;
+    animation: round 3s linear infinite;
+}
+
+@keyframes round {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.page1-logo {
+    position: absolute;
+    top: 12%;
+    z-index: 99;
+    height: 12%;
+    width: auto;
+    top: 40%;
+    left: 53%;
+    transform: translateX(-50%);
+}
+
+.page1Text {
+    position: absolute;
+    z-index: 99;
+    height: 14%;
+    width: auto;
+    top: 77.5%;
+    left: 7%;
+}
+
+.bottom-link {
+    position: absolute;
+    font-size: 0.95rem;
+    color: white;
+    font-weight: 600;
+    bottom: 1.5%;
+    right: 5%;
+    z-index: 99;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1300px) and (max-height: 600px) {
+    .bottom-link {
+        font-size: .65rem;
+    }
+}
+
+
+/******************************************************************************** page 1 ends ****************************************************/
+
+
+
+
+/******************************************************************************** page 2 starts ****************************************************/
+
+
+.page2Text {
+    position: absolute;
+    z-index: 99;
+    height: 77%;
+    width: auto;
+    top: 12.55%;
+    left: -3%;
+}
+
+
+
+/******************************************************************************** page 2 ends ****************************************************/
+
+
+
+
+
+/******************************************************************************** page 3 starts ****************************************************/
+.page3-logo {
+    position: absolute;
+    z-index: 99;
+    height: 13%;
+    width: auto;
+    top: 2.55%;
+    left: 74%;
+}
+
+.about_page_content {
+    position: absolute;
+    z-index: 99;
+    height: 77%;
+    width: auto;
+    top: 15.55%;
+    left: 0%;
+}
+
+/******************************************************************************** page 3 ends ****************************************************/
+
+
+/******************************************************************************** page 4 starts ****************************************************/
+
+.table_of_contents {
+    height: 10%;
+    width: auto;
+    position: absolute;
+    top: 26%;
+    left: 19.73%;
+    z-index: 99;
+}
+
+.page5_nav_links {
+    height: 27%;
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    z-index: 99;
+}
+
+.page5_bottom {
+    height: 20%;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    right: 1.75%;
+    z-index: 99;
+}
+
+.nav-links {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0);
+    height: 5%;
+    left: 9.75%;
+    z-index: 99;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.nav-links:hover {
+    border: 3px solid #01c386;
+}
+
+.about-link {
+    top: 39.5%;
+    width: 19%;
+}
+
+.products-link{
+    width: 17%;    
+    top: 46.5%;
+}
+
+.applications-link  {
+    width: 24%;
+    top: 53.5%;
+}
+
+.contactus-link {
+    width: 20%;
+    top: 60.5%;
+}
+
+
+
+/******************************************************************************** page 4 ends ****************************************************/
+
+/******************************************************************************** page 5 starts ****************************************************/
+
+.absolute {
+    position: absolute;
+}
+
+.page-5-top-product {
+    height: 3%;
+    width: auto;
+    top: 11%;
+    left: 47%;
+    transform: translateX(-50%);
+}
+
+.page-5-grid img:nth-child(1) {
+    width: auto;
+    height: 20.43%;
+    top: 20%;
+}
+
+.page-5-grid img:nth-child(2) {
+    width: auto;
+    height: 20.48%;
+    top: 41%;
+}
+
+.page-5-grid img:nth-child(3) {
+    width: auto;
+    height: 20.48%;
+    top: 62.5%;
+}
+
+.page-5-on-time-text {
+    height: 6%;
+    width: auto;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom_design {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background: linear-gradient(90deg, #0E5BCF 0%, #01CCFE 100%);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.services_grid_main {
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    position: relative;
+    position: absolute;
+    aspect-ratio: 2/2;
+    height: auto;
+    width: 94%;
+    top: 6.5%;
+    left: 3.5%;
+}
+
+.services_grid_main img {
+    flex: 1;
+}
+
+.services_grid_main img:nth-child(even) {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/******************************************************************************** page 5 ends ****************************************************/
+
+/******************************************************************************** page 14 starts ****************************************************/
+
+.page_no {
+    position: absolute;
+    bottom: 0.25%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 3;
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width: 1300px) and (max-height: 600px) {
+    .page_no {
+        font-size: .6rem;
+    }
+}
+
+.product_info {
+    position: absolute;
+    top: 7%;
+    width: auto;
+    height: 68%;
+    left: 4%;
+}
+
+.bottom_img_row {
+    position: absolute;
+    height: 19.25%;
+    width: auto;
+    bottom: 3.5%;
+    left: 4.5%;
+    z-index: 2;
+}
+
+.bg_and_icons {
+    position: absolute;
+    height: 48%;
+    width: auto;
+    top: 26.25%;
+    left: 56%;
+}
+
+.product_image {
+    position: absolute;
+    height: 32%;
+    width: auto;
+    top: 31%;
+    left: 63.5%;
+    animation: popup 2s linear infinite;
+    cursor: pointer;
+}
+
+/******************************************************************************** page 14 ends ****************************************************/
+
+/******************************************************************************** page 15 starts ****************************************************/
+
+.page_15_img_holder .product_image {
+    height: 32%;
+    top: 33%;
+    left: 63%;
+}
+
+.page_15_img_holder .bg_and_icons {
+    height: 53%;
+    top: 21%;
+    left: 48%;
+}
+
+/******************************************************************************** page 15 ends ****************************************************/
+
+/******************************************************************************** page 16 starts ****************************************************/
+
+.page_16_img_holder .product_image {
+    height: 31%;
+    top: 31%;
+    left: 61%;
+}
+
+.page_16_img_holder .bg_and_icons {
+    height: 48%;
+    top: 26.25%;
+    left: 54%;
+}
+
+/******************************************************************************** page 16 ends ****************************************************/
+
+
+/******************************************************************************** page 17 starts ****************************************************/
+
+.page_17_img_holder .product_image {
+    height: 29%;
+    top: 32%;
+    left: 63.25%;
+}
+
+.page_17_img_holder .bg_and_icons {
+    height: 61%;
+    top: 15.25%;
+    left: 38%;
+}
+
+/******************************************************************************** page 17 ends ****************************************************/
+
+/******************************************************************************** page 18 starts ****************************************************/
+
+.page_18_img_holder .product_image {
+    height: 32%;
+    top: 31%;
+    left: 65%;
+}
+
+.page_18_img_holder .bg_and_icons {
+    height: 49%;
+    top: 26.25%;
+    left: 53.25%;
+}
+
+/******************************************************************************** page 18 ends ****************************************************/
+
+/******************************************************************************** page 19 starts ****************************************************/
+
+.page_19_img_holder .product_image {
+    height: 30%;
+    top: 33.2%;
+    left: 60%;
+}
+
+.page_19_img_holder .bg_and_icons {
+    height: 48%;
+    top: 26.25%;
+    left: 54%;
+}
+
+/******************************************************************************** page 19 ends ****************************************************/
+
+/******************************************************************************** page 20 starts ****************************************************/
+
+.page_20_img_holder .product_image {
+    height: 29%;
+    top: 33.2%;
+    left: 60%;
+}
+
+.page_20_img_holder .bg_and_icons {
+    height: 48%;
+    top: 27%;
+    left: 54%;
+}
+
+/******************************************************************************** page 20 ends ****************************************************/
+
+/******************************************************************************** page 21 starts ****************************************************/
+
+.page_21_img_holder .product_image {
+    height: 31.5%;
+    top: 29%;
+    left: 60%;
+}
+
+.page_21_img_holder .bg_and_icons {
+    height: 51%;
+    top: 24%;
+    left: 53%;
+}
+
+/******************************************************************************** page 21 ends ****************************************************/
+
+/******************************************************************************** page 22 starts ****************************************************/
+
+.page_22_img_holder .product_image {
+    height: 29.5%;
+    top: 36%;
+    left: 59%;
+}
+
+.page_22_img_holder .bg_and_icons {
+    height: 46%;
+    top: 29%;
+    left: 53%;
+}
+
+/******************************************************************************** page 22 ends ****************************************************/
+
+/******************************************************************************** page 23 starts ****************************************************/
+
+.page_23_img_holder .product_image {
+    height: 43.5%;
+    top: 26%;
+    left: 53%;
+}
+
+.page_23_img_holder .bg_and_icons {
+    height: 46%;
+    top: 29%;
+    left: 56%;
+}
+
+/******************************************************************************** page 23 ends ****************************************************/
+
+/******************************************************************************** page 24 starts ****************************************************/
+
+.page_24_img_holder .product_image {
+    height: 36.5%;
+    top: 27%;
+    left: 60.5%;
+}
+
+.page_24_img_holder .bg_and_icons {
+    height: 59%;
+    top: 16%;
+    left: 41%;
+}
+
+/******************************************************************************** page 24 ends ****************************************************/
+
+/******************************************************************************** thank you page starts ****************************************************/
+.thankyou_img {
+    position: absolute;
+    height: 40%;
+    width: auto;
+    bottom: 0%;
+    right: 0;
+}
+
+/******************************************************************************** thank you page ends ****************************************************/
+
+/******************************************************************************** contact page starts ****************************************************/
+.contact_img {
+    position: absolute;
+    height: 29%;
+    width: auto;
+    top: 22%;
+    left: 8%;
+}
+
+/******************************************************************************** contact page ends ****************************************************/
+
+
+
+
+
+.home-img-container i {
+    font-size: 22px;
+    transition: all .3s ease-in-out;
+}
+
+.home-img-container:hover i {
+    color: green;
+}
+
+.full-screen {
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    background: #ffffff;
+
+
+    padding: 0.75%;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+
+.full-screen i {
+    background: linear-gradient(to right, #60ecf4, #43be9f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    transition: all .3s ease-in-out;
+}
+
+.full-screen:hover i {
+    scale: 1.2;
+}
+
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.home-container .side-bar {
+    background: #003B71;
+    color: white;
+    font-family: 'Prompt';
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 1vw;
+    font-weight: 500;
+    padding: 0.5vw;
+    padding-top: 10%;
+    width: 3.5%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    position: relative;
+}
+
+
+.page.page-even .gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 97.5%, rgb(0 0 0 / 44%) 100%);
+    filter: blur(6.35px);
+    background-image: linear-gradient(left, rgba(0, 0, 0, 0) 97.5%, rgb(0 0 0 / 70%) 100%);
+    z-index: 9;
+}
+/* .page.page-odd .gradient{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+
+	background-image:-webkit-linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+	background-image:linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+    z-index: 9;
+} */
+
+.page.page-odd .gradient {
+    position: absolute;
+    top: 0;
+    left: -1%;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(right, rgb(0 0 0 / 0%) 97.5%, rgb(0 0 0 / 70%) 100%);
+    filter: blur(6.35px);
+    background-image: linear-gradient(right, rgb(0 0 0 / 0%) 97.5%, rgb(0 0 0 / 70%) 100%);
+    z-index: 9;
+}
+
+body {
+    position: relative;
+}
+
+#expand-screen {
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 500;
+    background-color: white;
+    padding: 0.5vw 1vw;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    z-index: 999;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* ************************************************************************************* Services page ************************************************************* */
+
+.service-img-grid img {
+    position: absolute;
+}
+
+.service-img-grid img:nth-child(1) {
+    height: 29%;
+    width: 31%;
+    top: 4%;
+    left: 3%;
+    position: absolute;
+}
+
+.service-img-grid img:nth-child(2) {
+    height: 29%;
+    width: 31%;
+    top: 4%;
+    left: 35%;
+    position: absolute;
+}
+
+.service-img-grid img:nth-child(3) {
+    height: 29%;
+    width: 31%;
+    top: 4%;
+    left: 67%;
+    position: absolute;
+}
+
+.service-img-grid img:nth-child(4) {
+    height: 28.5%;
+    width: 63%;
+    top: 35%;
+    left: 3%;
+    position: absolute;
+}
+
+.service-img-grid img:nth-child(5) {
+    height: 29%;
+    width: 31%;
+    top: 35%;
+    left: 66.75%;
+    position: absolute;
+}
+
+.service-img-grid img:nth-child(6) {
+    height: 29%;
+    width: 31%;
+    top: 66%;
+    left: 3%;
+    position: absolute;
+}
+
+.service-img-grid img:nth-child(7) {
+    height: 28.25%;
+    width: 63%;
+    top: 66.5%;
+    left: 35%;
+    position: absolute;
+}
+
+
+
+.lightbox-link,
+.contact-links,
+.about-us-links {
+    background-color: rgba(165, 42, 42, 0);
+    position: absolute;
+    cursor: pointer;
+    z-index: 99;
+    display: block;
+    width: 9%;
+    height: 7%;
+}
+
+/* about us links ends */
+
+.lightbox-link.uc-button {
+    top: 23.5%;
+    left: 77.5%;
+}
+
+.lightbox-link.tg-button {
+    top: 31%;
+    left: 74%;
+}
+
+.lightbox-link.uv-uc-button {
+    top: 28.5%;
+    left: 78.5%;
+}
+
+.lightbox-link.single-part-button {
+    top: 25.75%;
+    left: 75.25%;
+}
+
+.lightbox-link.pree-kote-button {
+    top: 30%;
+    left: 78%;
+}
+
+.lightbox-link.v52-aluminium-button {
+    top: 25.75%;
+    left: 75.25%;
+}
+
+.lightbox-link.metal-expoxy-11116 {
+    top: 29%;
+    left: 78.5%;
+}
+
+.lightbox-link.nylon-liquid-power-button {
+    top: 25.75%;
+    left: 75.25%;
+}
+
+.lightbox-link.mso2-dry-button {
+    top: 30%;
+    left: 78%;
+}
+
+.lightbox-link.high-temp-pte-button {
+    top: 29.5%;
+    left: 62.5%;
+}
+
+.lightbox-link.high-strength-6383-button {
+    top: 33.5%;
+    left: 76.5%;
+}
+
+.lightbox-link.thread-locker-button {
+    top: 28.5%;
+    left: 79%;
+}
+
+.contact-links.website-link {
+    top: 42.3%;
+    left: 12%;
+    width: 20%;
+    height: 2%;
+}
+
+.contact-links.phone-link1 {
+    top: 46%;
+    left: 11.15%;
+    width: 16%;
+    height: 2%;
+}
+
+.contact-links.phone-link2 {
+    top: 48.1%;
+    left: 11.15%;
+    width: 16%;
+    height: 2%;
+}
+
+.contact-links.map-link {
+    top: 27%;
+    left: 50%;
+    width: 39%;
+    height: 8%;
+}
+
+.contact-links.email-link1 {
+    top: 46.5%;
+    left: 70%;
+    width: 19.5%;
+    height: 2.5%;
+}
+
+.contact-links.email-link2 {
+    top: 49.25%;
+    left: 67%;
+    width: 30.5%;
+    height: 2%;
+}
+
+/* ************************************************************************************** page 01 ******************************************************************* */
+
+.home-container {
+    width: 100%;
+    height: 100%;
+}
+
+.home-container .home-logo {
+    height: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    right: 3%;
+    top: 0;
+}
+
+.home-logo img {
+    width: 20%;
+    height: auto;
+    position: unset;
+    animation: beatFade 1s ease-in-out 8s;
+}
+
+@keyframes beatFade {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.home-container .home-images {
+    width: 100%;
+    height: 82%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 4.3%;
+}
+
+.container {
+    display: flex;
+    height: 46.5%;
+    width: 100%;
+    clip-path: polygon(0% 46%, 100% 0%, 100% 53.1%, 0% 100%);
+}
+
+.image-box {
+    width: 33.33%;
+    height: 100%;
+    opacity: 0;
+    scale: 0.6;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+}
+
+.image-box img {
+    position: unset;
+    /* cursor: pointer; */
+    transition: 1s;
+}
+
+.image-box img:hover {
+    scale: 1.2;
+}
+
+.image-box.fadeIn {
+    opacity: 1;
+    scale: 1;
+}
+
+
+.image-box:nth-child(1) {
+    display: flex;
+    align-items: end;
+}
+
+.container:nth-child(1) .image-box:last-child {
+    /* clip-path: polygon(0% 0%, 100% 6%, 100% 54%, 0% 100%); */
+}
+
+.image-box:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.image-box:nth-child(3) {
+    display: flex;
+    align-items: start;
+}
+
+.image-box img {
+    width: 100%;
+    height: 70%;
+}
+
+.container:nth-child(2),
+.container:nth-child(3) {
+    margin-top: -21.4%;
+}
+
+
+/* ************************************************************************************** page 04 ******************************************************************* */
+
+.page .grid-base-image-top img {
+    width: 20%;
+    height: 20%;
+    z-index: 9;
+    left: 70.75%;
+    top: 6.75%;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.grid-4-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    aspect-ratio: 10 / 10;
+    z-index: 9;
+    position: absolute;
+    column-gap: 15px;
+    row-gap: 15px;
+    height: 62%;
+    left: 7.5%;
+    top: 33.25%;
+    width: 85%;
+}
+
+.grid-img-cont {
+    overflow: hidden;
+}
+
+.grid-4-cont img {
+    position: unset;
+    object-fit: contain;
+    /* height: unset;
+    width: unset; */
+}
+
+/* ************************************************************************************** page 03 ******************************************************************* */
+
+.page3-text img {
+    position: absolute;
+    bottom: 7%;
+    left: 4%;
+    z-index: 9;
+    height: 12%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 04 ******************************************************************* */
+
+.page4-text img {
+    position: absolute;
+    top: 5.25%;
+    left: 3%;
+    z-index: 9;
+    height: 21.5%;
+    width: auto;
+}
+
+/* ************************************************************************************** page 05 ******************************************************************* */
+
+.page5-text-top img {
+    position: absolute;
+    top: 7.5%;
+    left: 17%;
+    height: 7.5%;
+    width: auto;
+    z-index: 9;
+}
+
+.page5-text-bottom img {
+    position: absolute;
+    bottom: 7%;
+    left: 8%;
+    height: 11.75%;
+    width: auto;
+    z-index: 9;
+    top: unset;
+}
+
+/* ************************************************************************************** page 06 ******************************************************************* */
+
+.page6-text img {
+    position: absolute;
+    bottom: 6%;
+    left: 5%;
+    z-index: 9;
+    height: 15%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 07 ******************************************************************* */
+
+.page7-text img {
+    position: absolute;
+    bottom: 13%;
+    left: 5%;
+    z-index: 9;
+    height: 36%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 08 ******************************************************************* */
+
+.page8-text img {
+    position: absolute;
+    bottom: 23%;
+    left: 4.5%;
+    z-index: 9;
+    height: 38%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 09 ******************************************************************* */
+
+.page9-text img {
+    position: absolute;
+    bottom: unset;
+    left: 3%;
+    z-index: 9;
+    height: 21.25%;
+    width: auto;
+    top: 5%;
+}
+
+/* ************************************************************************************** page 10 ******************************************************************* */
+
+
+.page10-text-top img {
+    position: absolute;
+    top: 7.5%;
+    left: 17%;
+    height: 7.5%;
+    width: auto;
+    z-index: 9;
+}
+
+.page10-text-bottom img {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    height: 9%;
+    width: auto;
+    z-index: 9;
+    top: unset;
+}
+
+/* ************************************************************************************** page 11 ******************************************************************* */
+
+
+.page11-text img {
+    position: absolute;
+    bottom: 5%;
+    left: 3.5%;
+    z-index: 9;
+    height: 15.75%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 12 ******************************************************************* */
+
+
+.page12-text img {
+    position: absolute;
+    bottom: 16%;
+    left: 3.5%;
+    z-index: 9;
+    height: 32.75%;
+    width: auto;
+    top: unset;
+}
+
+.page_marquee_content_wrapper {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    right: 3%;
+    z-index: 9;
+    overflow: hidden;
+    /* Hide overflowing content */
+}
+
+.page_marquee_content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    animation: verticalScroll 10s linear infinite;
+}
+
+.page_marquee_content:hover {
+    animation-play-state: paused;
+    /* Pause scrolling on hover */
+}
+
+.page_marquee_content img {
+    position: unset;
+    width: 100%;
+    height: auto;
+}
+
+/* Keyframes for vertical scrolling */
+@keyframes verticalScroll {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-50%);
+        /* scroll halfway if you duplicate content */
+    }
+}
+
+
+/* ************************************************************************************** page 13 ******************************************************************* */
+
+
+.page13-text img {
+    position: absolute;
+    bottom: 19%;
+    left: 5%;
+    z-index: 9;
+    height: 42.75%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 14 ******************************************************************* */
+
+
+.page14-text img {
+    position: absolute;
+    bottom: unset;
+    left: 5%;
+    z-index: 9;
+    height: 20.5%;
+    width: auto;
+    top: 5%;
+}
+
+/* ************************************************************************************** page 15 ******************************************************************* */
+
+.page15-text-top img {
+    position: absolute;
+    top: 7.5%;
+    left: 17%;
+    height: 7.5%;
+    width: auto;
+    z-index: 9;
+}
+
+.page15-text-bottom img {
+    position: absolute;
+    bottom: 7%;
+    left: 8%;
+    height: 12.25%;
+    width: auto;
+    z-index: 9;
+    top: unset;
+}
+
+/* ************************************************************************************** page 16 ******************************************************************* */
+
+
+.page16-text img {
+    position: absolute;
+    bottom: 6%;
+    left: 3.5%;
+    z-index: 9;
+    height: 17%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 17 ******************************************************************* */
+
+
+.page17-text img {
+    position: absolute;
+    bottom: 15%;
+    left: 4.5%;
+    z-index: 9;
+    height: 35%;
+    width: auto;
+    top: unset;
+}
+
+/* ************************************************************************************** page 18 ******************************************************************* */
+
+
+.page18-text img {
+    position: absolute;
+    bottom: 17%;
+    left: 4%;
+    z-index: 9;
+    height: 43.75%;
+    width: auto;
+    top: unset;
+}
+
+
+
+/* ************************************************************************************** page 19 ******************************************************************* */
+
+
+.page19-text img {
+    position: absolute;
+    bottom: unset;
+    left: 4%;
+    z-index: 9;
+    height: 25%;
+    width: auto;
+    top: 4.5%;
+}
+
+/* ************************************************************************************** page 20 ******************************************************************* */
+
+
+
+
+
+/* ************************************************************************************** page 21 *******************************************************************/
+
+.page21-text img {
+    position: absolute;
+    bottom: 19%;
+    left: 5%;
+    z-index: 9;
+    height: 42.75%;
+    width: auto;
+    top: unset;
+}
+
+
+.page-content {
+    position: relative;
+    z-index: 9;
+    width: 100%;
+}
+
+.heading-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #202020;
+    transform: translate(20px, 21px);
+    width: 100%;
+}
+
+.page-21-card-section {
+    width: 90%;
+    height: 100%;
+    aspect-ratio: 10 / 10.5;
+    display: flex;
+    flex-direction: column;
+    transform: translate(20px, 35px);
+    gap: 15px;
+}
+
+.page-21-card-section .p21-top-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    flex: 1;
+}
+
+.page-21-card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #FFFFFF;
+    transition: all .3s ease-in-out;
+}
+
+.page-21-card:hover {
+    border-color: black;
+}
+
+.page-21-card img {
+    transition: all .3s ease-in-out;
+}
+
+.page-21-card:hover img {
+    scale: 1.10;
+}
+
+
+.page-21-card p {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background: white;
+    font-size: 0.65vw;
+    font-weight: 500;
+    padding: 0.25vw 0.75vw;
+    z-index: 2;
+    min-width: 0;
+    width: max-content;
+    border-radius: 7px;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .6s ease-in-out;
+}
+
+.page-21-card:hover p {
+    color: white;
+    background: black;
+}
+
+
+.p21-top-cards .page-21-card {
+    flex: 1;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.p21-top-cards .page-21-card:last-child {
+    flex: 2;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+
+.p21-bottom-cards {
+    flex: 3;
+    display: flex;
+    gap: 15px;
+}
+
+.p21-bottom-left {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.p21-bottom-left .page-21-card {
+    flex: 1;
+    background-color: rgb(255, 225, 127);
+}
+
+.p21-bottom-left .page-21-card:last-child {
+    flex: 2;
+    background-color: rgb(255, 225, 127);
+}
+
+.p21-bottom-right {
+    flex: 2;
+    height: 100%;
+}
+
+.p21-bottom-right {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.p21-bottom-right .page-21-card {
+    background-color: rosybrown;
+}
+
+/***************************************************************************************************** Page 24 *******************************************************************************************/
+
+.page .product-image {
+    position: absolute;
+    height: 35%;
+    width: 33%;
+    z-index: 9;
+    top: 24%;
+    left: 61%;
+    transition: transform 0.3s ease-in-out;
+    animation: popup 2s linear infinite;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+.lightbox-hover-link:hover .product-image {
+    transform: scale(1.05);
+}
+
+.page .uv_uc_image {
+    top: 29.5%;
+}
+
+.page .k_single_part_epoxy_image {
+    top: 27.5%;
+    left: 60%;
+    height: 33%;
+    width: 30%;
+}
+
+
+.page .tg_109_image {
+    height: 28%;
+    width: 25%;
+    top: 33.5%;
+    left: 64%;
+}
+
+.page .pre_applied_thread_image {
+    height: 31%;
+    width: 25%;
+    top: 32.5%;
+    left: 63%;
+}
+
+.page .v52_aluminium_putty_image {
+    height: 37%;
+    width: 25%;
+    top: 28.5%;
+    left: 64%;
+}
+
+.page .metal_epoxy_image {
+    height: 30%;
+    width: 28%;
+    top: 31%;
+    left: 61%;
+}
+
+.page .nylon_liquid_powder_image {
+    height: 33%;
+    width: 25%;
+    top: 28.5%;
+    left: 63%;
+}
+
+.page .mos2_dry_coating_image {
+    height: 31%;
+    width: 25%;
+    top: 31.5%;
+    left: 63%;
+}
+
+.page .high_temperature_ptfe_grease_image {
+    height: 44%;
+    width: 25%;
+    top: 21.5%;
+    left: 65%;
+}
+
+.page .high_strength_image {
+    height: 33%;
+    width: 25%;
+    top: 27.5%;
+    left: 60%;
+}
+
+
+/* top bottom */
+
+.top_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 10%;
+    width: auto;
+}
+
+.bottom_image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 12%;
+    width: auto;
+    z-index: 1;
+}
